@@ -1,0 +1,110 @@
+body{
+	background-color: #e5e5ff;
+	background-image: url('clouds.jpg');
+	color: white;
+}
+p{
+	color:white;
+	font-size: 10px;
+}
+
+.header{
+	background-color: #9494FC;
+	border-bottom: 1px solid #444444;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left:0px;
+	padding:20px;
+}
+
+#logo{
+	border: 5px solid white;
+	padding:5px;
+}
+
+#button {
+	padding:0;
+	margin: 70px auto 0 auto;
+	width: 530px;	
+}
+
+button{
+	border: 1px solid #333;
+	padding:5px;
+}
+
+ul{
+	padding:0px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.colors{
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+	padding: 5px;
+}
+.color{
+	height:20px;
+	width: 20px;
+	border-radius: 15%;
+	text-align:right;
+	}
+.color:hover{
+	border:3px solid white;
+}
+
+.red{
+	background-color: #ff6565;
+}
+.blue{
+	background-color: #8783ff;
+
+}
+.green{
+	background-color:  #4DFF4D;
+}
+.yellow{
+	background-color: yellow;
+}
+.white{
+	background-color: white;
+}
+.rainbow{
+	height: 30px;
+	width: 55px;
+	background: url('large_rainbow.png');
+	background-size:55px 30px;
+}
+.rainbow:hover{
+	height: 35px;
+	width: 60px;
+	background: url('large_rainbow.png');
+	background-size:60px 35px;;
+}
+.container{
+	width:530px;
+	height:530px;
+	margin:0px auto;
+	overflow: hidden;
+}
+
+.grid{
+	background-color: #eeeeee;
+	height: 33px;
+	width: 33px;
+	float:left;
+	border:1px solid #dddddd;
+}
+
+.highlight{
+	background-color: #ffffff;
+}
+
+.main{
+	text-align: center;
+}
