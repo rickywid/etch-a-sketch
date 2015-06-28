@@ -29,7 +29,7 @@ $(document).ready(function(){
 
 		//set default grid color
 		$(this).closest('#button').next().find('.grid').css('background-color','#eeeeee');
-		var gridSize = prompt("what size do you want the grid? - 20 max");		
+		var gridSize = prompt("what size do you want the grid? (20 max)");		
 
 	//calculate grid size
 	function calcGrid(num){
